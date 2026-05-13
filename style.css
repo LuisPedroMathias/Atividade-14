@@ -67,12 +67,3 @@ footer {
     color: rgb(0, 204, 194);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-#tela-login{
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("assets/GHBxeNRXEAAywy6.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}

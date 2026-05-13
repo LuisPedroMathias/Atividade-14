@@ -34,7 +34,6 @@ document.getElementById("form-login").onsubmit = (e) => {
         if (salva === senha) {
             mensagem.innerHTML = "<div class='sucesso'><p>Login com sucesso!</p></div>";
 
-            // ✅ Movido para dentro do escopo correto
             const botao = document.getElementById("botao-envio");
             botao.addEventListener("click", function () {
                 window.location.href = "tela-home.html";
